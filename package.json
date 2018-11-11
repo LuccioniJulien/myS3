@@ -1,0 +1,39 @@
+{
+	"name": "project.04",
+	"version": "1.0.0",
+	"description": "API",
+	"main": "server.js",
+	"scripts": {
+		"start": "npx nodemon server.js --exec babel-node",
+		"dev": "npx nodemon server.js --exec babel-node"
+	},
+	"author": "Julien Luccioni",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.1.2",
+		"@babel/node": "^7.0.0",
+		"@babel/preset-env": "^7.1.0",
+		"eslint": "^5.6.1",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-jsx-a11y": "^6.1.2",
+		"eslint-plugin-react": "^7.11.1",
+		"nodemon": "^1.18.4"
+	},
+	"dependencies": {
+		"bcrypt": "^3.0.2",
+		"body-parser": "^1.18.3",
+		"dotenv": "^6.1.0",
+		"express": "^4.16.4",
+		"kleur": "^2.0.2",
+		"lodash": "^4.17.11",
+		"moment": "^2.22.2",
+		"multer": "^1.4.1",
+		"nodemailer": "^4.6.8",
+		"passport": "^0.4.0",
+		"passport-jwt": "^4.0.0",
+		"passport-local": "^1.0.0",
+		"pg": "^7.6.0",
+		"sequelize": "^4.39.0"
+	}
+}
