@@ -23,8 +23,8 @@ api.use(
 );
 api.use("/auth", auth);
 
-// api.get("*", (request, response) => {
-// 	res.status(404).json({ err: "Not found." });
-// });
+api.get("*", (request, response) => {
+	response.status(404).json({ err: "Not found." });
+});
 
 export default api;
