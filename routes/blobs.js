@@ -16,7 +16,6 @@ const upload = multer({
 			callback(null, path);
 		},
 		filename: (request, file, callback) => {
-			//originalname is the uploaded file's name with extn
 			callback(null, file.originalname);
 		}
 	})
